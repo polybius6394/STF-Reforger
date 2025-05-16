@@ -6,6 +6,7 @@ A few ground rules:
 - Don't overwrite others' work without permission. Seriously, this sucks.
 - If you're the publisher for a mod, make sure your local copy is up-to-date with the github.
 - Ask before using others' work outside of 1PH/STF, even if the license states that you can. It never hurts to ask!
+
 Beyond that, do literally whatever. Update and create 'til your heart's content.
 
 If you want contributor status, dm me (poly), and I'll add you. Anyone is welcome!
