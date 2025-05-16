@@ -15,4 +15,4 @@ Current contributors:
 - Voodoo
 
 If you want contributor status, dm me (poly), and I'll add you. Anyone is welcome!
-Seriously, even if you're new to modding, ask us, we're more than willing ot help!
+Seriously, even if you're new to modding, ask us, we're more than willing to help/teach!
