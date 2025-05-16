@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C3CC23CEA7DB4957}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover_panama_corb_wdl.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

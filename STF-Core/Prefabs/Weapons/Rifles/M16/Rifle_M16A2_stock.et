@@ -1,0 +1,41 @@
+GenericEntity : "{C63227C0E70EA62E}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{62E4F3F469A4877C}" {
+     SourceMaterial "M16A2_Stock_01"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{56DE9C900611C1AF}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      ChildPivotID "snap_hand_guard"
+      Prefab "{FB1A7F5BC7D935E2}Prefabs/Weapons/Attachments/Handguards/Handguard_M16A2/Handguard_M16.et"
+     }
+    }
+    AttachmentSlotComponent "{62E4F3F41CFF6E3B}" {
+     AttachmentSlot InventoryStorageSlot "{62E4F3F41A733900}" {
+      PivotID "Scene_Root"
+      Prefab "{27AA1E0A16A55F76}Prefabs/Weapons/Attachments/Stocks/Stock_M16Carbine/Stock_M16Carbine.et"
+     }
+     AttachmentType AttachmentStockVz58 "{62E4F3F40E0B730A}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{5D527627CCB8F756}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        ChildPivotID "snap_barrel_muzzle"
+        Prefab "{6288A1F1A5E3AC37}Prefabs/Weapons/Attachments/Muzzle/FlashHider_M16A2/FlashHider_M16.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

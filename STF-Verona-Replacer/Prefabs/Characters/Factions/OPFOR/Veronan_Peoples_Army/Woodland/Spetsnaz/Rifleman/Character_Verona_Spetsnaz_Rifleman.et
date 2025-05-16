@@ -1,0 +1,131 @@
+SCR_ChimeraCharacter : "{6C5FF2067F4F4EF0}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Character_Verona_Base.et" {
+ ID "520EC961A090BE1E"
+ components {
+  ChimeraAIControlComponent "{520EA1D2DB109F34}" {
+   components {
+    SCR_AICombatComponent "{55A2C9BE343B2EA1}" {
+     m_eAISkillDefault EXPERT
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Rifleman"
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+    m_aAuthoredLabels + {
+     -1144487281 -1144487293
+    }
+    m_aAutoLabels {
+     122 46
+    }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{652E9EF6961207E9}" {
+    m_iDefaultVariantRandomizerWeight 2
+    m_aVariants {
+     SCR_EditableEntityVariant "{652E9EF6906A6275}" {
+      m_sVariantPrefab "{B5C425D8E5A6365D}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Spetsnaz/Rifleman/Character_Verona_Spetsnaz_Rifleman2.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{652E9EF690B94FCA}" {
+      m_sVariantPrefab "{50586921E943A136}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Spetsnaz/Rifleman/Character_Verona_Spetsnaz_Rifleman3.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{652E9EF690EA252B}" {
+      m_sVariantPrefab "{6D6C4C199C2F2801}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Spetsnaz/Rifleman/Character_Verona_Spetsnaz_Rifleman4.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{652E9EF69121B1BC}" {
+      m_sVariantPrefab "{88F000E090CABF6A}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Spetsnaz/Rifleman/Character_Verona_Spetsnaz_Rifleman5.et"
+      m_iRandomizerWeight 4
+     }
+     SCR_EditableEntityVariant "{652E9EF691552F43}" {
+      m_sVariantPrefab "{E4A434002C0E3044}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Spetsnaz/Rifleman/Character_Verona_Spetsnaz_Rifleman6.et"
+      m_iRandomizerWeight 4
+     }
+     SCR_EditableEntityVariant "{652E9EF6916A055D}" {
+      m_sVariantPrefab "{81420DADD29D4311}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Spetsnaz/Rifleman/Character_Verona_Spetsnaz_Rifleman_LAT.et"
+     }
+     SCR_EditableEntityVariant "{652E9EF6918989B6}" {
+      m_sVariantPrefab "{4172BF47CF98D4C7}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Spetsnaz/Rifleman/Character_Verona_Spetsnaz_Rifleman_LAT2.et"
+     }
+     SCR_EditableEntityVariant "{652E9EF691AFF2D7}" {
+      m_sVariantPrefab "{A4EEF3BEC37D43AC}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Spetsnaz/Rifleman/Character_Verona_Spetsnaz_Rifleman_LAT3.et"
+     }
+     SCR_EditableEntityVariant "{652E9EF691C288DC}" {
+      m_sVariantPrefab "{99DAD686B611CA9B}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Spetsnaz/Rifleman/Character_Verona_Spetsnaz_Rifleman_LAT4.et"
+     }
+     SCR_EditableEntityVariant "{652E9EF692C10F3F}" {
+      m_sVariantPrefab "{7C469A7FBAF45DF0}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Spetsnaz/Rifleman/Character_Verona_Spetsnaz_Rifleman_LAT5.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{652E9EF692FB716A}" {
+      m_sVariantPrefab "{1012AE9F0630D2DE}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Spetsnaz/Rifleman/Character_Verona_Spetsnaz_Rifleman_LAT6.et"
+      m_iRandomizerWeight 2
+     }
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{5F3661399CE6BEE6}Prefabs/Weapons/Rifles/AKS74U/Variants/Rifle_AKS74UN_PBS4.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E2310D63F5B5F6DD}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_cover_KZS_klmk.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{970850AFEF49DC7B}Prefabs/Characters/Uniforms/Jacket_M88_klmk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{3DB68DA0E36CE548}Prefabs/Characters/Uniforms/Pants_M88_klmk.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{D39AD0069BDAB3F8}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_verona_spetsnaz.et"
+    }
+    LoadoutSlotInfo HandWear {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652E45086BEE5FAF}" {
+     TargetStorage "Jacket/Jacket_M88_klmk.et"
+     PrefabsToSpawn {
+      "{E096C6BD45C87B63}Prefabs/Items/PersonalBelongings/PersonalBelongings_USSR.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{50A68300B537EDFA}Prefabs/Items/Food/ArmyCrackers_Soviet_01.et" "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652E45086BEE5FA2}" {
+     TargetStorage "Vest/Vest_ALICE_verona_spetsnaz.et/MagPouch/Pouch_ALICE_30rnd_STANAG.et"
+     PrefabsToSpawn {
+      "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652E45086BEE5FBF}" {
+     TargetStorage "Vest/Vest_ALICE_verona_spetsnaz.et/MagPouch2/Pouch_ALICE_30rnd_STANAG.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652E45086BEE5FB8}" {
+     TargetStorage "Vest/Vest_ALICE_verona_spetsnaz.et/Suspenders/Vest_ALICE_suspenders_2.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+     }
+    }
+   }
+  }
+ }
+}

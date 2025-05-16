@@ -1,0 +1,7 @@
+MatPBRBasic {
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{BFF009EB4B22ABD4}Assets/Characters/HeadGear/Hat_Boonie_US_01/Data/Hat_Boonie_US_01_corb_des_BCR.edds"
+ OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
+ NMOMap "{80D2B4462C72457D}Assets/Characters/HeadGear/Hat_Boonie_US_01/Data/Hat_Boonie_US_01_NMO.edds"
+}

@@ -1,0 +1,29 @@
+GameEntity : "{B08100A8DC75064F}Prefabs/Characters/HeadGear/Helmet_MICH_01/Helmet_MICH_DCU_cover.et" {
+ ID "50D49DC5BC0CD17E"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D601873E6784}" {
+    ItemDisplayName UIInfo "{52C8D60185955516}" {
+     Name "M97 Combat Helmet (Woodland)"
+     Description "A more modern Corbeqauis combat helmet, seen in limited use by reconnaissance units and para-hussars."
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Materials {
+    MaterialAssignClass "{630B6D8C21A02CBF}" {
+     SourceMaterial "Helmet_MICH_DCU"
+     AssignedMaterial "{0D0827F97BB2F41C}Assets/Characters/HeadGear/Helmet_MICH/Data/Helmet_MICH_corb_wdl.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornMaterialsOverride {
+    "{0D0827F97BB2F41C}Assets/Characters/HeadGear/Helmet_MICH/Data/Helmet_MICH_corb_wdl.emat"
+   }
+   ItemMaterialsOverride {
+    "{0D0827F97BB2F41C}Assets/Characters/HeadGear/Helmet_MICH/Data/Helmet_MICH_corb_wdl.emat"
+   }
+  }
+ }
+}

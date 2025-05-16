@@ -1,0 +1,23 @@
+SCR_AIGroup : "{524ED0151EE8167E}Prefabs/Groups/OPFOR/Veronan_Peoples_Army/Group_Verona_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Manuever Team"
+    m_Image "{73D2001F6BA8C1F1}Icons/verona_BCR.edds"
+    m_aAutoLabels {
+     -1144487293 -1144487281 -1144487275 -1144487269
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity OPFOR
+     m_Icons RECON
+     m_Amplifier TEAM
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{93F9BB91049618C0}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Spetsnaz/SquadLeader/Character_Verona_Spetsnaz_SquadLeader.et" "{ECE3DD3DFA87B468}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Spetsnaz/CombatMedic/Character_Verona_Spetsnaz_CombatMedic.et" "{6A707467E92DCAB2}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Spetsnaz/RadioTelephoneOperator/Character_Verona_Spetsnaz_RadioTelephoneOperator.et" "{306F41B41EBD786B}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Spetsnaz/MachineGunner/Character_Verona_Spetsnaz_MachineGunner.et" "{17343296025001FD}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Spetsnaz/ATSpecialist/Character_Verona_Spetsnaz_ATSpecialist.et"
+ }
+}

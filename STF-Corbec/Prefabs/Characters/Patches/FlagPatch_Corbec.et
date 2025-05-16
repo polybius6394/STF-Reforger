@@ -1,0 +1,34 @@
+GenericEntity : "{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" {
+ ID "5184C9E8F822439D"
+ components {
+  MeshObject "{521AC04910AB9941}" {
+   Object "{AAD306B436C1631A}Assets/Characters/Patches/Flag/FlagPatch_US_ground.xob"
+   Materials {
+    MaterialAssignClass "{62863A8A22979AC5}" {
+     SourceMaterial "FlagPatch_US"
+     AssignedMaterial "{F8E4AB8566E84F14}Assets/Characters/Patches/Flag/Data/FlagPatch_Corbec.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{52A09474497068A0}" {
+   Attributes SCR_ItemAttributeCollection "{52A094744E13F290}" {
+    ItemPhysAttributes ItemPhysicalAttributes "{52E6EEB1B0E45BE3}" {
+     Weight 0.1
+    }
+    m_SlotType SLOT_LOADOUT_STORAGE
+   }
+   MaxCumulativeVolume 600
+  }
+  BaseLoadoutClothComponent "{521AC04910AB9954}" {
+   Animate 1
+   WornModel "{7572D636DE905230}Assets/Characters/Patches/Flag/FlagPatch_US_BDU.xob"
+   WornMaterialsOverride {
+    "{F8E4AB8566E84F14}Assets/Characters/Patches/Flag/Data/FlagPatch_Corbec.emat"
+   }
+   ItemModel "{AAD306B436C1631A}Assets/Characters/Patches/Flag/FlagPatch_US_ground.xob"
+   ItemMaterialsOverride {
+    "{F8E4AB8566E84F14}Assets/Characters/Patches/Flag/Data/FlagPatch_Corbec.emat"
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E186ACE769957532}Assets/Characters/Uniforms/Jacket_BDU_M81/Data/Jacket_BDU_corb_wdl.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

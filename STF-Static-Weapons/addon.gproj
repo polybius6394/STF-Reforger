@@ -1,0 +1,8 @@
+GameProject {
+ ID "1PHCore"
+ GUID "62840C1944CD1E27"
+ TITLE "1PH - Core"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

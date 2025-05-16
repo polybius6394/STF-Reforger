@@ -1,0 +1,18 @@
+GenericEntity : "{2E8829632CBA7A9B}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_commander.et" {
+ ID "526492DCB8322C65"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Buttpack {
+     Prefab "{1A7B025AF6B9F5A1}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack_nomark.et"
+    }
+    LoadoutSlotInfo FirstAid {
+     Prefab "{38884AF25B093DA7}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_firstaid_nomark.et"
+    }
+    LoadoutSlotInfo Cateen {
+     Prefab "{B7D35352164012A3}Prefabs/Items/Equipment/Canteens/Canteen_US_01_nomark.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{894628A45793E7A0}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{2C80908D352613D9}Prefabs/Weapons/Rifles/M16/Rifle_FC16A3_carbine_painted.et"
+  }
+ }
+}

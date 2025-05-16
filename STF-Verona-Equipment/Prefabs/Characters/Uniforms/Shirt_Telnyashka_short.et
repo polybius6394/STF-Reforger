@@ -1,0 +1,34 @@
+GameEntity : "{E44990162EBC47B7}Prefabs/Characters/Uniforms/Jacket_M88_base.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "VDV Telnyashka (Tank Top)"
+     Description "A VDV Telnyashka with no sleeves, used by elite VDV troops."
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewModel "{47A6F3F782C64E7F}Assets/ESU/Sov_Telnyashka/telnyashka_short.xob"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    LoadoutSlotInfo DummyBelt {
+     Enabled 0
+     Prefab "{F928D90B6E4B9166}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_belt_dummy.et"
+    }
+   }
+   WornModel "{470DEA5AC50FA688}Assets/esu_telnyashka/telnyashka_short.xob"
+   WornMaterialsOverride {
+    "{22C54A6175FCBD5B}Assets/esu_telnyashka/Data/soviet_telnyashka_tanktop.emat"
+   }
+   OverrideMeshesToHide {
+    ""
+   }
+   DeflatedModel "{47A6F3F782C64E7F}Assets/ESU/Sov_Telnyashka/telnyashka_short.xob"
+  }
+ }
+}

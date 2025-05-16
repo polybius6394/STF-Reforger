@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{92B4C1586A8A3B14}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Conscripts/PlatoonLeader/Character_Verona_Conscript_PL6.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

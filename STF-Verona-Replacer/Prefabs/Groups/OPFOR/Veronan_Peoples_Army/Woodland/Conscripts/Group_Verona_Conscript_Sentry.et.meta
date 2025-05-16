@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B86E8F2AD48A2AEE}Prefabs/Groups/OPFOR/Veronan_Peoples_Army/Woodland/Conscripts/Group_Verona_Conscript_Sentry.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

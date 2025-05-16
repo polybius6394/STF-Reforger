@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{24D6E57A9AD6FD2A}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Regulars/ATSpecialist/Character_Verona_Regular_ATSpecialist3.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,94 @@
+SCR_ChimeraCharacter : "{6C5FF2067F4F4EF0}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Character_Verona_Base.et" {
+ ID "520EC961A090BE1E"
+ components {
+  ChimeraAIControlComponent "{520EA1D2DB109F34}" {
+   components {
+    SCR_AICombatComponent "{55A2C9BE343B2EA1}" {
+     m_eAISkillDefault EXPERT
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Marksman"
+    Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+    m_aAuthoredLabels + {
+     -1144487281 -1144487293
+    }
+    m_aAutoLabels {
+     122 47
+    }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{652E9EFE1FBBFC8F}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{652E9EFE188A7BBC}" {
+      m_sVariantPrefab "{A3F20DC8166A563A}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Spetsnaz/Marksman/Character_Verona_Spetsnaz_Marksman2.et"
+     }
+     SCR_EditableEntityVariant "{652E9EFE18AB38F3}" {
+      m_sVariantPrefab "{466E41311A8FC151}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Spetsnaz/Marksman/Character_Verona_Spetsnaz_Marksman3.et"
+      m_iRandomizerWeight 2
+     }
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{06FEF50E59A739D3}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_01_v2_klmk.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{CF8D4342F5DC5E43}Prefabs/Characters/Uniforms/Jacket_M88_klmk_sovietbelt.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{3DB68DA0E36CE548}Prefabs/Characters/Uniforms/Pants_M88_klmk.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{4664C1D5E433CE66}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_sharpshooter_strichtarn.et"
+    }
+    LoadoutSlotInfo HandWear {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652E9EF8A352FF9A}" {
+     TargetStorage "Jacket/Jacket_M88_klmk_sovietbelt.et"
+     PrefabsToSpawn {
+      "{E096C6BD45C87B63}Prefabs/Items/PersonalBelongings/PersonalBelongings_USSR.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{50A68300B537EDFA}Prefabs/Items/Food/ArmyCrackers_Soviet_01.et" "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652E9EF8A352FF6B}" {
+     TargetStorage "Vest/Vest_SovietHarness_sharpshooter_strichtarn.et/MagPouch_6Sh46/Pouch_Soviet_10rnd_SVD_strichtarn.et"
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652E9EF8A352FF64}" {
+     TargetStorage "Vest/Vest_SovietHarness_sharpshooter_strichtarn.et/GrenadePouch/Vest_SovietHarness_GrenadePouch_strichtarn.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652E9EF8A352FF66}" {
+     TargetStorage "Vest/Vest_ALICE_verona_spetsnaz.et/Suspenders/Vest_ALICE_suspenders_2.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+     }
+    }
+   }
+  }
+ }
+}

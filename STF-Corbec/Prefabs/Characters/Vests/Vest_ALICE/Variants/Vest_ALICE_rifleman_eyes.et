@@ -1,0 +1,12 @@
+GenericEntity : "{2835A0EA3B79E63E}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_rifleman.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Buttpack {
+     Prefab "{C0E929D180BACA95}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack_eyes.et"
+    }
+   }
+  }
+ }
+}

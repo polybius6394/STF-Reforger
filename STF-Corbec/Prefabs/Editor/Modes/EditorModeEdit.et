@@ -1,0 +1,13 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "54F0A77282A3AA3B"
+ components {
+  SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{62A687479139DDAF}" : "{BBF1A6B7AD350E32}Configs/Editor/PlaceableEntities/Characters/Characters_1PH_Corbec.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{64666DC5A497B757}" : "{BF9843BB6428FF2B}Configs/Editor/PlaceableEntities/1PH_Corbec_placeableEntitiesRegistry_Props.conf" {
+    }
+   }
+  }
+ }
+}

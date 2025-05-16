@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{D4C73106ACABEBC7}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Conscripts/FireteamLeader/Character_Verona_Conscript_FTL.et" {
+ ID "520EC961A090BE1E"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{70076235C8898A7F}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_01_v2_strichtarn.et"
+    }
+   }
+  }
+ }
+}

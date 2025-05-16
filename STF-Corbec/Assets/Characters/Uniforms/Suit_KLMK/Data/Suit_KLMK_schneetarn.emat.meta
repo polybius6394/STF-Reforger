@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4713CEEA35D9D924}Assets/Characters/Uniforms/Suit_KLMK/Data/Suit_KLMK_schneetarn.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

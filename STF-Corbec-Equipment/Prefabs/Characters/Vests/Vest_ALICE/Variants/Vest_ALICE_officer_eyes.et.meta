@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{393D0F99B2BE2C8E}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_officer_eyes.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

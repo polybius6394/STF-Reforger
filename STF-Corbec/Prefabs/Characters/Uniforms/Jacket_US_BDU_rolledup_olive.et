@@ -1,0 +1,41 @@
+GameEntity : "{8A5424D1A2AA6595}Prefabs/Characters/Uniforms/Jacket_US_BDU_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{630A75C07C297683}" {
+     SourceMaterial "Jacket_BDU_M81_item"
+     AssignedMaterial "{0470AF73470E54F1}Assets/Characters/Uniforms/Jacket_BDU_M81/Data/Jacket_BDU_M81_02_item.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "Corbequais BDU Blouse - Olive (Rolled)"
+     Description "Older Corbequais BDU, found in limited use by reserve units and para-hussars."
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewWornModel 1
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    LoadoutSlotInfo DummyBelt {
+     Prefab "{ACB6C2B49C1230F9}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_dummy.et"
+    }
+   }
+   WornModel "{8DD1393CD1F874E1}Assets/Characters/Uniforms/Jacket_BDU_M81/Jacket_BDU_M81_rolledup.xob"
+   WornMaterialsOverride {
+    "{80C4B9F5E20B5C64}Assets/Characters/Uniforms/Jacket_BDU_M81/Data/Jacket_BDU_M65_rolledup.emat"
+   }
+   ItemMaterialsOverride {
+    "{0470AF73470E54F1}Assets/Characters/Uniforms/Jacket_BDU_M81/Data/Jacket_BDU_M81_02_item.emat"
+   }
+   DeflatedModel "{305B26A94BFEDB4C}Assets/Characters/Uniforms/Jacket_BDU_M81/Jacket_BDU_M81_rolledup_Deflated.xob"
+  }
+ }
+}

@@ -1,0 +1,11 @@
+MatPBRBasic {
+ Emissive 0.23 0.441 0.061 0
+ EmissiveLV -3
+ SurfaceProperties "{13581C35484F3000}Common/Materials/Game/fabric.gamemat"
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ EmissiveMap "{941F34537B4B146B}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_cover_training_EM.edds"
+ BCRMap "{A56463F2491D9D58}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_corb_wdl_training_BCR.edds"
+ OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
+ NMOMap "{691972F5D14455F9}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_cover_NMO.edds"
+}

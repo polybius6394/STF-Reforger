@@ -1,0 +1,41 @@
+SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_BaseLoadout.et" {
+ ID "51FA90A59C87A851"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{71208ECAD0FC24BA}Prefabs/Weapons/Rifles/L1A1_SLR/Rifle_L1A1_SLR_Wood.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{DA660EE7E43B8364}Prefabs/Characters/HeadGear/Helmet_HSAT_01/Helmet_HSAT_Cover_Net_Scrim_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E03AE40F5F07DB6D}Prefabs/Characters/Uniforms/Jacket_US_BDU_corb_wdl.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{EC52017B865C2AD0}Prefabs/Characters/Vests/Vest_M69/Vest_M69_UK_OD.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{4C0A09ED36EE52D2}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_rifleman_eyes.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{54A49B42D138207E}" {
+     PrefabsToSpawn {
+      "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5538C29C2FC6375B}" {
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5538C29C2FA41111}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack_eyes.et"
+    }
+   }
+  }
+ }
+}

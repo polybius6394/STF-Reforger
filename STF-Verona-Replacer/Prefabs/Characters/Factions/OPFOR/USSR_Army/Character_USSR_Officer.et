@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{3ECA3A935BC069B9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_BaseLoadout.et" {
+ ID "200D264F0EEA1A28"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{70076235C8898A7F}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_01_v2_strichtarn.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{F084515EC4F92330}Prefabs/Characters/Uniforms/Jacket_TAZ83/Jacket_TAZ83_strichtarn_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Pants/Pants_M88_strichtarn.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     TargetStorage "Jacket/Jacket_TAZ83_strichtarn_01.et"
+    }
+   }
+  }
+ }
+}

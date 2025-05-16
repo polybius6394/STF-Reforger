@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{F77E546DB86E278C}Assets/Characters/Patches/Flag/Data/FlagPatch_Corbec_BCR.edds"
+ NMOMap "{CFA6EFFF61197512}Assets/Characters/Patches/Flag/Data/FlagPatch_Corbec_NMO.edds"
+}

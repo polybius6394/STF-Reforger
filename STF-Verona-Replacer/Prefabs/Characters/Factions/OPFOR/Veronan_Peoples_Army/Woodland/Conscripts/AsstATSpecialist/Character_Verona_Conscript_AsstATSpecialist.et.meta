@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{04B5A3EF448EE3CE}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Conscripts/Rifleman/Character_Verona_Conscript_AsstATSpecialist.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

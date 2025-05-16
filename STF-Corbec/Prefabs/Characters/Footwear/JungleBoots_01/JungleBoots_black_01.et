@@ -1,0 +1,29 @@
+GenericEntity : "{203EEA924B049EF1}Prefabs/Characters/Footwear/JungleBoots_01/JungleBoots_01.et" {
+ ID "5104869D194C6243"
+ components {
+  InventoryItemComponent "{5244C46AD695742D}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D60139586A54}" {
+    ItemDisplayName UIInfo "{52C8D60138ED3590}" {
+     Name "Corbequais Jungle Boots"
+     Description "A pair of standard issue black Corbequais Jungle Boots."
+    }
+   }
+  }
+  MeshObject "{5244C34DEE7DBFB4}" {
+   Materials {
+    MaterialAssignClass "{630B46854EE48D89}" {
+     SourceMaterial "JungleBoots_01"
+     AssignedMaterial "{3FFA3DBF59DEE792}Assets/Characters/Footwear/JungleBoots_01/Data/JungleBoots_black_01.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5244C34DEE7DBFB2}" {
+   WornMaterialsOverride {
+    "{3FFA3DBF59DEE792}Assets/Characters/Footwear/JungleBoots_01/Data/JungleBoots_black_01.emat"
+   }
+   ItemMaterialsOverride {
+    "{3FFA3DBF59DEE792}Assets/Characters/Footwear/JungleBoots_01/Data/JungleBoots_black_01.emat"
+   }
+  }
+ }
+}

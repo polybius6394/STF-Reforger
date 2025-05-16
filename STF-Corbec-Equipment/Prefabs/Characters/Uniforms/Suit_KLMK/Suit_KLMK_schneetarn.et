@@ -1,0 +1,29 @@
+GameEntity : "{CF221A167DE87E57}Prefabs/Characters/Uniforms/Suit_KLMK/Suit_KLMK.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{646483508E72FC34}" {
+     SourceMaterial "Suit_KLMK_Item"
+     AssignedMaterial "{4713CEEA35D9D924}Assets/Characters/Uniforms/Suit_KLMK/Data/Suit_KLMK_schneetarn.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "Corbequais Winter Coveralls"
+     Description "A one-piece suit in a winter pattern, meant to be worn over the uniform."
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{4713CEEA35D9D924}Assets/Characters/Uniforms/Suit_KLMK/Data/Suit_KLMK_schneetarn.emat"
+   }
+   ItemMaterialsOverride {
+    "{4713CEEA35D9D924}Assets/Characters/Uniforms/Suit_KLMK/Data/Suit_KLMK_schneetarn.emat"
+   }
+  }
+ }
+}

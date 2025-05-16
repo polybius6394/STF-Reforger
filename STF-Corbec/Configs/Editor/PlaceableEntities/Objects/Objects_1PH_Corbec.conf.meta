@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{78799DDFA2288AAF}Configs/Editor/PlaceableEntities/Objects/Objects_1PH_Corbec.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

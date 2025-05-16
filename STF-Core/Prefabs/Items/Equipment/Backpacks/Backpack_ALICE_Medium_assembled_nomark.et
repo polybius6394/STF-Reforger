@@ -1,0 +1,21 @@
+GenericEntity : "{5C5C6EE05EE2FF1A}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium_assembled.et" {
+ ID "525674F5B3E45F0D"
+ components {
+  MeshObject "{511E9C6ADE70F7BD}" {
+   Materials {
+    MaterialAssignClass "{652E45125E223678}" {
+     SourceMaterial "Medium_Combat_Field_Pack_M"
+     AssignedMaterial "{BBD4181F84DB8BF9}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Data/Backpack_ALICE_Medium_nomark.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{511E9C6ADE70F7BB}" {
+   WornMaterialsOverride {
+    "{BBD4181F84DB8BF9}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Data/Backpack_ALICE_Medium_nomark.emat"
+   }
+   ItemMaterialsOverride {
+    "{BBD4181F84DB8BF9}Assets/Items/Equipment/Backpacks/Backpack_ALICE_Medium/Data/Backpack_ALICE_Medium_nomark.emat"
+   }
+  }
+ }
+}

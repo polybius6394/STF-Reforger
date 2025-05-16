@@ -1,0 +1,23 @@
+SCR_AIGroup : "{524ED0151EE8167E}Prefabs/Groups/OPFOR/Veronan_Peoples_Army/Group_Verona_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Mortar Squad"
+    m_Image "{73D2001F6BA8C1F1}Icons/verona_BCR.edds"
+    m_aAutoLabels {
+     -1144487293 -1144487284 -1144487274 -1144487267
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity OPFOR
+     m_Icons MORTAR
+     m_Amplifier SQUAD
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{9F72356E3C5D2BA3}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Regulars/SquadLeader/Character_Verona_Regular_SL.et" "{53BF7A24657A67F5}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Regulars/RadioTelephoneOperator/Character_Verona_Regular_RadioTelephoneOperator.et" "{FCBB800E1DF930C6}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Regulars/Mortarman/Character_Verona_Regular_Mortarman.et" "{4339FCBC732CE958}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Regulars/AsstMortarman/Character_Verona_Regular_AsstMortarman.et" "{A4B04A5C6E90B19C}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Regulars/MortarAmmoBearer/Character_Verona_Regular_MortarAmmoBearer.et" "{FCBB800E1DF930C6}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Regulars/Mortarman/Character_Verona_Regular_Mortarman.et" "{4339FCBC732CE958}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Regulars/AsstMortarman/Character_Verona_Regular_AsstMortarman.et" "{A4B04A5C6E90B19C}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Regulars/MortarAmmoBearer/Character_Verona_Regular_MortarAmmoBearer.et"
+ }
+}

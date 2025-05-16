@@ -1,0 +1,28 @@
+SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_BaseLoadout.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BC0D0F67831EF4AE}Prefabs/Weapons/Rifles/M16/Rifle_FC16A3_carbine_painted_M203.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B8D01E23340AFEFE}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01_corb_wdl.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{55058D1174E9B395}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_corb_wdl.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{16FBA6CA6B2126EE}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_GL_eyes.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5538C29F083FF041}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack_eyes.et"
+    }
+   }
+  }
+ }
+}

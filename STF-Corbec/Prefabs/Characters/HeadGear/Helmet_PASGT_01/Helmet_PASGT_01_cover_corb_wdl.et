@@ -1,0 +1,32 @@
+GameEntity : "{8A2B2A544F3ED831}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D601873E6784}" {
+    ItemDisplayName UIInfo "{52C8D60185955516}" {
+     Name "M87 Combat Helmet (Woodland)"
+     Description "The standard issue Corbequais combat helmet."
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{6298E440DEE27B19}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_cover_item.xob"
+   Materials {
+    MaterialAssignClass "{6282E5D83E44E378}" {
+     SourceMaterial "HelmetUsPasgtWoodland_01"
+     AssignedMaterial "{9D40D7C97A130D14}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_cover_corb_wdl.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{D4DF94843E9B7823}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_cover.xob"
+   WornMaterialsOverride {
+    "{9D40D7C97A130D14}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_cover_corb_wdl.emat"
+   }
+   ItemModel "{6298E440DEE27B19}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_cover_item.xob"
+   ItemMaterialsOverride {
+    "{9D40D7C97A130D14}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_cover_corb_wdl.emat"
+   }
+  }
+ }
+}

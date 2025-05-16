@@ -1,0 +1,22 @@
+GenericEntity : "{F9E6107C47C1B088}Prefabs/Weapons/Core/LongRangeRifle_Base.et" {
+ ID "525494E72B1E90FD"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5472D211BFD78F81}" {
+     AttachmentType AttachmentOpticsDovetailSVD "{58E2BCF926D50DE5}" {
+     }
+    }
+    AttachmentSlotComponent "{652E9EFF2516C5CF}" {
+     AttachmentSlot InventoryStorageSlot "{652E9EFFDBBAEE50}" {
+      PivotID "barrel_muzzle"
+      Offset 0 0.0005 0.0441
+      Angles 0 0 180
+      ChildPivotID "snap_weapon"
+      InspectionWidgetOffset 0 0.035 0.3992
+     }
+    }
+   }
+  }
+ }
+}

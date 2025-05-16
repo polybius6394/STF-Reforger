@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6A707467E92DCAB2}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Spetsnaz/Rifleman/Character_Verona_Spetsnaz_RadioTelephoneOperator.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

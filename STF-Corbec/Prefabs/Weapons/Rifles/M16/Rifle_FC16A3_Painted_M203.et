@@ -1,0 +1,36 @@
+GenericEntity : "{3080C596359E66F8}Prefabs/Weapons/Rifles/M16/Rifle_FC16A3_Painted.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "FC16A3 (Painted, M203)"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{56DE9C900611C1AF}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      PivotID "barrel_chamber"
+      Prefab "{775E9992AF575338}Prefabs/Weapons/Attachments/Underbarrel/UGL_M203_long_OliveGreen_Sand_Stripes.et"
+     }
+     AttachmentType AttachmentUnderBarrelM203 "{58E2B5510A713A07}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       RoundsPerMinute 800
+      }
+      BaseFireMode "{5534745C44D1EF22}" {
+      }
+     }
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "FC16A3 (Painted, M203)"
+   }
+  }
+ }
+}

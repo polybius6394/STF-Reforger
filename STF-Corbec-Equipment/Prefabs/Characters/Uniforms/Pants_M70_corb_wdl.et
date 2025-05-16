@@ -1,0 +1,37 @@
+GameEntity : "{6099177EBF8A16FC}Prefabs/Characters/Uniforms/Pants_M70_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{630B6D885DE636C4}" {
+     SourceMaterial "Pants_M70_01_Item"
+     AssignedMaterial "{324794BAE924A952}Assets/Characters/Uniforms/Pants_M70/Data/Pants_M70_01_Item_corb_wdl.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "Corbequais Para-Hussar Combat Pants (Woodland)"
+     Description "The pride of the Corbequais Para-Hussars, the beloved paratrooper pants."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 1.6
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewWornModel 1
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{330EB052EFC3345B}Assets/Characters/Uniforms/Pants_M70/Data/Pants_M70_01_corb_wdl.emat"
+   }
+   ItemMaterialsOverride {
+    "{324794BAE924A952}Assets/Characters/Uniforms/Pants_M70/Data/Pants_M70_01_Item_corb_wdl.emat"
+   }
+  }
+ }
+}

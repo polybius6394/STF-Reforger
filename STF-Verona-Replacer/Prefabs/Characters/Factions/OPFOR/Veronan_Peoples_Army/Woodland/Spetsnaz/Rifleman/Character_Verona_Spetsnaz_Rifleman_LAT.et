@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{3088135BBCFA7391}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Spetsnaz/Rifleman/Character_Verona_Spetsnaz_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Rifleman (RPG-18)"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{4A4BFB368D4D830D}Prefabs/Weapons/Launchers/M72/Launcher_M72A3_RPG18.et"
+  }
+ }
+}

@@ -1,0 +1,34 @@
+GameEntity : "{E44990162EBC47B7}Prefabs/Characters/Uniforms/Jacket_M88_base.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "VDV Telnyashka (Long Sleeve)"
+     Description "A VDV Telnyashka with long sleeves, used by elite VDV troops."
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewModel "{1CF384CD610FBED8}Assets/ESU/Sov_Telnyashka/telnyashka_long.xob"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    LoadoutSlotInfo DummyBelt {
+     Enabled 0
+     Prefab "{F928D90B6E4B9166}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_belt_dummy.et"
+    }
+   }
+   WornModel "{A7FAE556BA62DC48}Assets/esu_telnyashka/telnyashka_long.xob"
+   WornMaterialsOverride {
+    "{25289CA4B50F7329}Assets/esu_telnyashka/Data/soviet_telnyashka.emat"
+   }
+   OverrideMeshesToHide + {
+    "Arm_L" "Arm_R"
+   }
+   DeflatedModel "{1CF384CD610FBED8}Assets/ESU/Sov_Telnyashka/telnyashka_long.xob"
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{62A1ED6E9DAD133C}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Conscripts/Autorifleman/Character_Verona_Conscript_MachineGunner.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

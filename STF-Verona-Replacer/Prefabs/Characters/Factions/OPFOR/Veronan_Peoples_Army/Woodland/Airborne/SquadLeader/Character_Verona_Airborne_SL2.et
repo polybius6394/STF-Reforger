@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{5CDEBCF0FF182CAC}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Airborne/SquadLeader/Character_Verona_Airborne_SL.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C35398878287C}" {
+     PrefabsToSpawn + {
+      "{55EFADEE8400A08E}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceItem.et"
+     }
+    }
+   }
+  }
+ }
+}

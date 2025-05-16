@@ -1,0 +1,45 @@
+GameEntity : "{8A5424D1A2AA6595}Prefabs/Characters/Uniforms/Jacket_US_BDU_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{62863A88A5EC3EE4}" {
+     SourceMaterial "Jacket_BDU_M81_item"
+     AssignedMaterial "{D1514A223DF71B1E}Assets/Characters/Uniforms/Jacket_BDU_M81/Data/Jacket_BDU_corb_wdl_item.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "Corbequais BDU Blouse - Woodland (Flag)"
+     Description "Standard issue Corbequais BDU blouse."
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewWornModel 1
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    LoadoutSlotInfo DummyBelt {
+     Prefab "{ACB6C2B49C1230F9}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_dummy.et"
+    }
+    LoadoutSlotInfo patch1 {
+     Prefab "{4860A97144BC81F4}Prefabs/Characters/Patches/FlagPatch_Corbec.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{E186ACE769957532}Assets/Characters/Uniforms/Jacket_BDU_M81/Data/Jacket_BDU_corb_wdl.emat"
+   }
+   ItemMaterialsOverride {
+    "{D1514A223DF71B1E}Assets/Characters/Uniforms/Jacket_BDU_M81/Data/Jacket_BDU_corb_wdl_item.emat"
+   }
+   OverrideMeshesToHide + {
+    "Arm_L" "Arm_R"
+   }
+  }
+ }
+}

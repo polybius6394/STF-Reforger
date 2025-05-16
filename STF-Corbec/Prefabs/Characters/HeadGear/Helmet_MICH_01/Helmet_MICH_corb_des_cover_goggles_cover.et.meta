@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AB13CF0B4F2823A2}Prefabs/Characters/HeadGear/Helmet_MICH_01/Helmet_MICH_corb_des_cover_goggles_cover.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

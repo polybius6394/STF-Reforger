@@ -1,0 +1,6 @@
+MatPBRBasic {
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{A5E5B713CC4ACDF7}Assets/Characters/HeadGear/Hat_Patrol_US_01/Data/Hat_Patrol_US_01_french_lizard_BCR.edds"
+ NMOMap "{1F64E9290480CE4B}Assets/Characters/HeadGear/Hat_Patrol_US_01/Data/Hat_Patrol_US_01_NMO.edds"
+}

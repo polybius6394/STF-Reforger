@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{81420DADD29D4311}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Spetsnaz/Rifleman/Character_Verona_Spetsnaz_Rifleman_LAT.et" {
+ ID "520EC961A090BE1E"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{B364AB77A405EB8C}Prefabs/Characters/Uniforms/Suit_KLMK/Suit_KLMK_verona_klmk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4F71E7468E78DDD2}Prefabs/Characters/Handwear/Gloves_Leather_01/Gloves_Leather_01.et"
+    }
+   }
+  }
+ }
+}

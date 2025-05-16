@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DA3A7D490078A871}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01_french_lizard.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

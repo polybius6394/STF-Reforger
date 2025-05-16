@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0B7829BF7ACB8FF2}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Conscripts/AsstMortarman/Character_Verona_Conscript_AsstMortarman4.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

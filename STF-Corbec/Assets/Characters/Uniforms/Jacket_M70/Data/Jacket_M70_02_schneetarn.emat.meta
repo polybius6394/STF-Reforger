@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{09C505808A9D642E}Assets/Characters/Uniforms/Jacket_M70/Data/Jacket_M70_02_schneetarn.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

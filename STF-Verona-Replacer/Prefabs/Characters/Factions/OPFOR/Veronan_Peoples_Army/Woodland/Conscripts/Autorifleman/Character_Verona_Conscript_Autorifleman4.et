@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{1E942ADD3EB82857}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Conscripts/Character_Verona_Conscript_Autorifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A264A82471B12F54}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_cover_KZS_burlap1.et"
+    }
+   }
+  }
+ }
+}

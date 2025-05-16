@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{398C3AECC4BE8EE8}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Spetsnaz/CombatMedic/Character_Verona_Spetsnaz_CombatMedic6.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

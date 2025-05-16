@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Cull none
+ AlphaTest 0.243
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{B4EA67AEA5936EF8}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_scrim_des_BCR.edds"
+ OpacityMap "{F92C0B7EA0B6304E}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_scrim_A.edds"
+ NMOMap "{E9BC0B7791362F0C}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_scrim_NMO.edds"
+}

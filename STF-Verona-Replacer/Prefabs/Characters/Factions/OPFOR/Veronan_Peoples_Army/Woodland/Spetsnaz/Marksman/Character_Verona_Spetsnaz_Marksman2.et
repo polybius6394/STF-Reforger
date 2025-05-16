@@ -1,0 +1,19 @@
+SCR_ChimeraCharacter : "{2B667A962030B257}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Spetsnaz/Marksman/Character_Verona_Spetsnaz_Marksman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{CD0A8D7BC5BC7B31}Prefabs/Characters/Uniforms/Jacket_M88_klmk_rolledup_sovietbelt.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652E9EF8A352FF9A}" {
+     TargetStorage "Jacket/Jacket_M88_klmk_rolledup_sovietbelt.et"
+    }
+   }
+  }
+ }
+}

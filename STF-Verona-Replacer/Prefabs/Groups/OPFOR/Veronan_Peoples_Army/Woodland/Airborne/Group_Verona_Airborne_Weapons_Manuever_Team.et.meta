@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5A7117E2BC72A3A4}Prefabs/Groups/OPFOR/Veronan_Peoples_Army/Woodland/Airborne/Group_Verona_Airborne_Weapons_Manuever_Team.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{538E70611F8113B8}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01_olive.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

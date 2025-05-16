@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{ABE312B6172F0932}Prefabs/Characters/Uniforms/Jacket_Raincoat_01/Jacket_Raincoat_01_corb_des.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

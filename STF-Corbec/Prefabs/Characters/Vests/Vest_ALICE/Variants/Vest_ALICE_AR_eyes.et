@@ -1,0 +1,12 @@
+GenericEntity : "{156DC7109CEE6F69}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_AR.et" {
+ ID "526492DCB8322C65"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Buttpack {
+     Prefab "{C0E929D180BACA95}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack_eyes.et"
+    }
+   }
+  }
+ }
+}

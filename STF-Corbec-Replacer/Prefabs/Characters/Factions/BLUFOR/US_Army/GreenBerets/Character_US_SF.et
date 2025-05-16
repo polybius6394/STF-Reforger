@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{894628A45793E7A0}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BC0D0F67831EF4AE}Prefabs/Weapons/Rifles/M16/Rifle_FC16A3_carbine_painted_M203.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6E3CF6FD00EEDA1D}Prefabs/Characters/HeadGear/Hat_Knitted_01/Cap_Comforter_OD_02.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{EC52017B865C2AD0}Prefabs/Characters/Vests/Vest_M69/Vest_M69_UK_OD.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{0960A1A0B891F243}Prefabs/Items/Equipment/Backpacks/Rucksack_P58_Large_Pack.et"
+    }
+   }
+  }
+ }
+}

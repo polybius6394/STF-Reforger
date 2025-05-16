@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{9F72356E3C5D2BA3}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Regulars/SquadLeader/Character_Verona_Regular_SL.et" {
+ ID "520EC961A090BE1E"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CE309CC4CD75A07A}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_cover_KZS_burlap2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C35398878287C}" {
+     PrefabsToSpawn + {
+      "{55EFADEE8400A08E}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceItem.et"
+     }
+    }
+   }
+  }
+ }
+}

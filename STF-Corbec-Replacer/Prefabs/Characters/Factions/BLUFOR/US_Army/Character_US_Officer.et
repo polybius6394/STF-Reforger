@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{D9889FC9DB8C06C0}Prefabs/Weapons/Handguns/HiPower/Handgun_HiPower.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F64A99AA43EBA3D2}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_black.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{55058D1174E9B395}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_corb_wdl.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D9AD3A15D8ECA3F}" {
+     PrefabsToSpawn {
+      "{1E7D876C06089E21}Prefabs/Weapons/Magazines/Magazine_9x19_HiPower_13rnd_Ball.et" "{1E7D876C06089E21}Prefabs/Weapons/Magazines/Magazine_9x19_HiPower_13rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

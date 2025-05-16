@@ -1,0 +1,23 @@
+SCR_AIGroup : "{524ED0151EE8167E}Prefabs/Groups/OPFOR/Veronan_Peoples_Army/Group_Verona_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Sentry (UGL)"
+    m_Image "{73D2001F6BA8C1F1}Icons/verona_BCR.edds"
+    m_aAutoLabels {
+     -1144487293 -1144487280 -1144487276 -1144487269
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity OPFOR
+     m_Icons 4097
+     m_Amplifier TEAM
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{E7704612C708FB70}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Airborne/Grenadier/Character_Verona_Airborne_Grenadier.et" "{B2D3A50F1454A1C1}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Airborne/Rifleman/Character_Verona_Airborne_Rifleman.et"
+ }
+}

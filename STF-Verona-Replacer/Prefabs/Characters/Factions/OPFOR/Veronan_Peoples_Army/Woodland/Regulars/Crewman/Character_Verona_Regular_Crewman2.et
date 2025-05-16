@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{431D2B4E6103561D}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Regulars/Crewman/Character_Verona_Regular_Crewman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D6B1ACA46036E9CE}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01_open.et"
+    }
+   }
+  }
+ }
+}

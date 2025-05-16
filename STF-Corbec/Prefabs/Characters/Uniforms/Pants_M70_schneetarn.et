@@ -1,0 +1,37 @@
+GameEntity : "{6099177EBF8A16FC}Prefabs/Characters/Uniforms/Pants_M70_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{6286820F0BC7E55B}" {
+     SourceMaterial "Pants_M70_01_Item"
+     AssignedMaterial "{103280DD6A7CADB1}Assets/Characters/Uniforms/Pants_M70/Data/Pants_M70_01_Item_schneetarn.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "Corbequais Winter Pants"
+     Description "Winter combat uniform pants."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 1.6
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewWornModel 1
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{914C8325FBF8BCBA}Assets/Characters/Uniforms/Pants_M70/Data/Pants_M70_01_schneetarn.emat"
+   }
+   ItemMaterialsOverride {
+    "{103280DD6A7CADB1}Assets/Characters/Uniforms/Pants_M70/Data/Pants_M70_01_Item_schneetarn.emat"
+   }
+  }
+ }
+}

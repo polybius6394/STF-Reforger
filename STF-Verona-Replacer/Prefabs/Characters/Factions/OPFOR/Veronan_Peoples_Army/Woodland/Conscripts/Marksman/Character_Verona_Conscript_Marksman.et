@@ -1,0 +1,96 @@
+SCR_ChimeraCharacter : "{6C5FF2067F4F4EF0}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Character_Verona_Base.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Marksman"
+    Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+    m_aAuthoredLabels + {
+     -1144487283 -1144487293
+    }
+    m_aAutoLabels {
+     122 47
+    }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{652C4ED7FB400F94}" {
+    m_iDefaultVariantRandomizerWeight 5
+    m_aVariants {
+     SCR_EditableEntityVariant "{652C4ED7FB400F92}" {
+      m_sVariantPrefab "{255482D6BF3E864C}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Conscripts/Marksman/Character_Verona_Conscript_Marksman2.et"
+     }
+     SCR_EditableEntityVariant "{652C4ED7FB400F6C}" {
+      m_sVariantPrefab "{C0C8CE2FB3DB1127}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Conscripts/Marksman/Character_Verona_Conscript_Marksman3.et"
+     }
+     SCR_EditableEntityVariant "{652C4ED7FB400F69}" {
+      m_sVariantPrefab "{FDFCEB17C6B79810}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Conscripts/Marksman/Character_Verona_Conscript_Marksman4.et"
+     }
+     SCR_EditableEntityVariant "{652C4ED7FB400F6A}" {
+      m_sVariantPrefab "{1860A7EECA520F7B}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Conscripts/Marksman/Character_Verona_Conscript_Marksman5.et"
+     }
+     SCR_EditableEntityVariant "{652C4ED7FB400F64}" {
+      m_sVariantPrefab "{7434930E76968055}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Conscripts/Marksman/Character_Verona_Conscript_Marksman6.et"
+     }
+     SCR_EditableEntityVariant "{652C4ED6DC74CD29}" {
+      m_sVariantPrefab "{91A8DFF77A73173E}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Conscripts/Marksman/Character_Verona_Conscript_Marksman7.et"
+      m_iRandomizerWeight 5
+     }
+     SCR_EditableEntityVariant "{652C4ED6DCB704DF}" {
+      m_sVariantPrefab "{0E5CD97E9C4F923B}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Conscripts/Marksman/Character_Verona_Conscript_Marksman8.et"
+      m_iRandomizerWeight 2
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A7E6D7ECD5F684D7}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{F084515EC4F92330}Prefabs/Characters/Uniforms/Jacket_TAZ83/Jacket_TAZ83_strichtarn_01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DB1D0F0C944C42A2}Prefabs/Characters/Uniforms/Pants_M88_strichtarn.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{4664C1D5E433CE66}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_sharpshooter_strichtarn.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C4ED7FB400F49}" {
+     TargetStorage "Jacket/Jacket_TAZ83_strichtarn_01.et"
+     PrefabsToSpawn {
+      "{E096C6BD45C87B63}Prefabs/Items/PersonalBelongings/PersonalBelongings_USSR.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{50A68300B537EDFA}Prefabs/Items/Food/ArmyCrackers_Soviet_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652C4ED7FB400F45}" {
+     TargetStorage "Vest/Vest_SovietHarness_sharpshooter_strichtarn.et/MagPouch_6Sh46/Pouch_Soviet_10rnd_SVD_strichtarn.et"
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652C4ED7FB400F47}" {
+     TargetStorage "Vest/Vest_SovietHarness_sharpshooter_strichtarn.et/GrenadePouch/Vest_SovietHarness_GrenadePouch_strichtarn.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652C4ED7FB400F40}" {
+     TargetStorage "Vest/Vest_SovietHarness_sharpshooter_strichtarn.et/Suspenders/Vest_SovietHarness_Suspenders.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,22 @@
+GameProject {
+ ID "1PHCorbecUSReplacer"
+ GUID "64E368586B9248F3"
+ TITLE "1PH Corbec US Replacer"
+ Dependencies {
+  "58D0FB3206B6F859" "5EAA37D00555B45F" "646156E84AA96246" "59A30ACC02650E71" "5D0551624969C92E" "5AE50EC5B8D6F4AE" "626F43556BAAAB9D" "62840C1944CD1E27" "64E358135484FA59" "59EAA899751805DF"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

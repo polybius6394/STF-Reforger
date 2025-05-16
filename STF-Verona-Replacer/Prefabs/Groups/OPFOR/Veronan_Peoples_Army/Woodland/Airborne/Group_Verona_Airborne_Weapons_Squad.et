@@ -1,0 +1,23 @@
+SCR_AIGroup : "{524ED0151EE8167E}Prefabs/Groups/OPFOR/Veronan_Peoples_Army/Group_Verona_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Weapons Squad"
+    m_Image "{73D2001F6BA8C1F1}Icons/verona_BCR.edds"
+    m_aAutoLabels {
+     -1144487293 -1144487280 -1144487274 -1144487268
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity OPFOR
+     m_Icons 8193
+     m_Amplifier SQUAD
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{5CDEBCF0FF182CAC}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Airborne/SquadLeader/Character_Verona_Airborne_SL.et" "{FFCF0EB8E374B9DA}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Airborne/MachineGunner/Character_Verona_Airborne_MachineGunner.et" "{7CE0831D7CECB3F3}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Airborne/AsstMachineGunner/Character_Verona_Airborne_AsstMachineGunner.et" "{8AF0B494356CA8F4}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Airborne/ATSpecialist/Character_Verona_Airborne_ATSpecialist.et" "{619AA507DCE5D9F8}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Airborne/AsstATSpecialist/Character_Verona_Airborne_AsstATSpecialist.et" "{CBAAE8FDD0C9CE57}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Airborne/FireteamLeader/Character_Verona_Airborne_FTL.et" "{FFCF0EB8E374B9DA}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Airborne/MachineGunner/Character_Verona_Airborne_MachineGunner.et" "{7CE0831D7CECB3F3}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Airborne/AsstMachineGunner/Character_Verona_Airborne_AsstMachineGunner.et" "{DE775B2E9B43FE0F}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Airborne/Marksman/Character_Verona_Airborne_Marksman.et"
+ }
+}

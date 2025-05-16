@@ -1,0 +1,22 @@
+GameProject {
+ ID "1PHCorbec"
+ GUID "6284151651D8951A"
+ TITLE "1PH - Corbec"
+ Dependencies {
+  "62840C1944CD1E27" "58D0FB3206B6F859" "60B134EF0216CF4D" "5D9ECAD071E9ECBC"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

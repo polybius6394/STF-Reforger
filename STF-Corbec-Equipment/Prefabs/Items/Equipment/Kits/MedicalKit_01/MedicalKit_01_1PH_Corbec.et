@@ -1,0 +1,20 @@
+GenericEntity : "{46FD263F0F368A92}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  MeshObject "{5CCCD4F57413F626}" {
+   Materials {
+    MaterialAssignClass "{628810E3E3BFFB72}" {
+     SourceMaterial "MedicalKit_01"
+     AssignedMaterial "{EDCA56495B77DBB3}Assets/Items/Equipment/Kits/MedicalKit_01/Data/MedicalKit_01_US.emat"
+    }
+    MaterialAssignClass "{628810E3E3BFFB42}" {
+     SourceMaterial "decals_logo"
+     AssignedMaterial "{85604D79E648B442}Assets/Items/Equipment/Kits/MedicalKit_01/Data/decals_MedicalKit_01_US.emat"
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5E3CBEE8057882D8}" {
+   "faction affiliation" "1PH_Corbec"
+  }
+ }
+}

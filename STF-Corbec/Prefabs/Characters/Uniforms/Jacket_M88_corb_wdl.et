@@ -1,0 +1,34 @@
+GameEntity : "{9F546CCA2582D16F}Prefabs/Characters/Uniforms/Jacket_M88.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{64648352F928D887}" {
+     SourceMaterial "Jacket_M88_01_Item"
+     AssignedMaterial "{918CDD5C2C60B412}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_corb_wdl_01_item.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "Corbequais Para-Hussar Blouse (Woodland)"
+     Description "A standard issue Corbequais BDU, raid modified for Para-Hussar use."
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    LoadoutSlotInfo DummyBelt {
+     Prefab "{ACB6C2B49C1230F9}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_dummy.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{5B6BEC94F84C5C0A}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_corb_wdl_01.emat"
+   }
+   ItemMaterialsOverride {
+    "{918CDD5C2C60B412}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_corb_wdl_01_item.emat"
+   }
+  }
+ }
+}

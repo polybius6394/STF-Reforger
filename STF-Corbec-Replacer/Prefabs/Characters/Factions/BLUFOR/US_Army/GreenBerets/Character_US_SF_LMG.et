@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{894628A45793E7A0}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C3CC23CEA7DB4957}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover_panama_corb_wdl.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{0E924C84C063DB3C}Prefabs/Characters/Uniforms/Jacket_M88_corb_wdl.et"
+    }
+   }
+  }
+ }
+}

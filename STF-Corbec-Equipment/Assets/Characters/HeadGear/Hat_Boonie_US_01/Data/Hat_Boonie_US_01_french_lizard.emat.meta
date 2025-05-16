@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{677769F02C182C5D}Assets/Characters/HeadGear/Hat_Boonie_US_01/Data/Hat_Boonie_US_01_french_lizard.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

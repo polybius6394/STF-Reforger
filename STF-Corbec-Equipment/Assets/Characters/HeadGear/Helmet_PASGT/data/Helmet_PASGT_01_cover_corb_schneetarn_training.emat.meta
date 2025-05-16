@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3191E6169154B1AA}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_cover_corb_schneetarn_training.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

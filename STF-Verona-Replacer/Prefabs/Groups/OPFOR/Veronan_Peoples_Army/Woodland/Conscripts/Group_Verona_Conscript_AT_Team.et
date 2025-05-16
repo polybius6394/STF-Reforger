@@ -1,0 +1,22 @@
+SCR_AIGroup : "{524ED0151EE8167E}Prefabs/Groups/OPFOR/Veronan_Peoples_Army/Group_Verona_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Anti-Tank Team"
+    m_aAutoLabels {
+     -1144487293 -1144487283 -1144487275 -1144487264
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity OPFOR
+     m_Icons ANTITANK
+     m_Amplifier TEAM
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{D4C73106ACABEBC7}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Conscripts/FireteamLeader/Character_Verona_Conscript_FTL.et" "{5ADD814F55B8092A}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Conscripts/ATSpecialist/Character_Verona_Conscript_ATSpecialist.et" "{04B5A3EF448EE3CE}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Conscripts/AsstATSpecialist/Character_Verona_Conscript_AsstATSpecialist.et" "{5ADD814F55B8092A}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Conscripts/ATSpecialist/Character_Verona_Conscript_ATSpecialist.et" "{04B5A3EF448EE3CE}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Conscripts/AsstATSpecialist/Character_Verona_Conscript_AsstATSpecialist.et"
+ }
+}

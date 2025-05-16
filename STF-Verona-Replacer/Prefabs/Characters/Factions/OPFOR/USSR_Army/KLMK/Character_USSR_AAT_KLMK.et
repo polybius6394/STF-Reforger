@@ -1,0 +1,28 @@
+SCR_ChimeraCharacter : "{631158F6898738A4}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AAT.et" {
+ ID "51F08680DED7494C"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AFD8BBF0AE1A672B}Prefabs/Weapons/Rifles/AK74/Rifle_AKS74.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1D78596789DDF847}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_cover_KZS_leaf.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{CE38F5E7DC970330}Prefabs/Characters/Uniforms/Suit_KLMK/Suit_KLMK_leaf.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Jacket/Suit_KLMK_leaf.et"
+    }
+    ItemsInitConfigurationItem "{568AD28065623400}" {
+     TargetStorage "Jacket/Suit_KLMK_leaf.et"
+    }
+   }
+  }
+ }
+}

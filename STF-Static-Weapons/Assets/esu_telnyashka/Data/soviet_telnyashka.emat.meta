@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{25289CA4B50F7329}Assets/ESU/Sov_Telnyashka/Data/soviet_telnyashka.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

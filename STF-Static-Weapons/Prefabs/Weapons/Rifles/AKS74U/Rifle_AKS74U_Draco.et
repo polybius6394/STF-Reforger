@@ -1,0 +1,19 @@
+GenericEntity : "{BFEA719491610A45}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74U.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{650E421A81B94281}" {
+     SourceMaterial "AKS74U_Stock"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Century Intl. Draco"
+    Description "A certified hood classic."
+   }
+  }
+ }
+}

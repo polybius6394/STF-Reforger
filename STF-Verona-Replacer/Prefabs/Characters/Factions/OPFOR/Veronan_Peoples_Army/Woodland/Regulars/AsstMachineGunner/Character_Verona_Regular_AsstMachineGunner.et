@@ -1,0 +1,87 @@
+SCR_ChimeraCharacter : "{6C5FF2067F4F4EF0}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Character_Verona_Base.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Assistant Machine Gunner"
+    Icon "{FB48FAD32DA8BC91}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AmmoBearer.edds"
+    m_aAuthoredLabels + {
+     -1144487284 -1144487293
+    }
+    m_aAutoLabels {
+     122 48
+    }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{652C3D216856E85D}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{652C3D216856E85B}" {
+      m_sVariantPrefab "{C4E4D2661AF4D5F8}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Regulars/AsstMachineGunner/Character_Verona_Regular_AsstMachineGunner2.et"
+     }
+     SCR_EditableEntityVariant "{652C3D216856E856}" {
+      m_sVariantPrefab "{21789E9F16114293}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Regulars/AsstMachineGunner/Character_Verona_Regular_AsstMachineGunner3.et"
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A264A82471B12F54}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_cover_KZS_burlap1.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{F084515EC4F92330}Prefabs/Characters/Uniforms/Jacket_TAZ83/Jacket_TAZ83_strichtarn_01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DB1D0F0C944C42A2}Prefabs/Characters/Uniforms/Pants_M88_strichtarn.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{5F606B3258D5F2F7}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman_strichtarn.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C3D216856E838}" {
+     TargetStorage "Jacket/Jacket_TAZ83_strichtarn_01.et"
+     PrefabsToSpawn {
+      "{E096C6BD45C87B63}Prefabs/Items/PersonalBelongings/PersonalBelongings_USSR.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{50A68300B537EDFA}Prefabs/Items/Food/ArmyCrackers_Soviet_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652C3D216856E834}" {
+     TargetStorage "Vest/Vest_SovietHarness_rifleman_strichtarn.et/MagPouch_6Sh46/Pouch_Soviet_30rnd_AK74_strichtarn.et"
+     PrefabsToSpawn {
+      "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652C3D216856E836}" {
+     TargetStorage "Vest/Vest_SovietHarness_rifleman_strichtarn.et/GrenadePouch/Vest_SovietHarness_GrenadePouch_strichtarn.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652C3D216856E830}" {
+     TargetStorage "Vest/Vest_SovietHarness_rifleman_strichtarn.et/Suspenders/Vest_SovietHarness_Suspenders.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652C3D21161ADFC9}" {
+     TargetStorage "Back/Backpack_Kolobok.et"
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

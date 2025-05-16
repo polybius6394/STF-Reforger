@@ -1,0 +1,116 @@
+SCR_ChimeraCharacter : "{6C5FF2067F4F4EF0}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Character_Verona_Base.et" {
+ ID "520EC961A090BE1E"
+ components {
+  ChimeraAIControlComponent "{520EA1D2DB109F34}" {
+   components {
+    SCR_AICombatComponent "{55A2C9BE343B2EA1}" {
+     m_eAISkillDefault EXPERT
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Machine Gunner"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+    m_aAuthoredLabels + {
+     -1144487281 -1144487293
+    }
+    m_aAutoLabels {
+     122 43
+    }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{652E9EFD7CBCDAB8}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{652E9EFD7D6DF572}" {
+      m_sVariantPrefab "{8943B8A50C6E6C9E}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Spetsnaz/MachineGunner/Character_Verona_Spetsnaz_MachineGunner2.et"
+     }
+     SCR_EditableEntityVariant "{652E9EFD7D80EBE8}" {
+      m_sVariantPrefab "{6CDFF45C008BFBF5}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Spetsnaz/MachineGunner/Character_Verona_Spetsnaz_MachineGunner3.et"
+     }
+     SCR_EditableEntityVariant "{652E9EFD7DA62837}" {
+      m_sVariantPrefab "{51EBD16475E772C2}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Spetsnaz/MachineGunner/Character_Verona_Spetsnaz_MachineGunner4.et"
+     }
+     SCR_EditableEntityVariant "{652E9EFD7DBB8B25}" {
+      m_sVariantPrefab "{B4779D9D7902E5A9}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Spetsnaz/MachineGunner/Character_Verona_Spetsnaz_MachineGunner5.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{652E9EFD7DD2BB2D}" {
+      m_sVariantPrefab "{D823A97DC5C66A87}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Spetsnaz/MachineGunner/Character_Verona_Spetsnaz_MachineGunner6.et"
+      m_iRandomizerWeight 2
+     }
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C7BE039743FA7D2D}Prefabs/Weapons/MachineGuns/PKM/MG_PKMN_1P29.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E2310D63F5B5F6DD}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_cover_KZS_klmk.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{970850AFEF49DC7B}Prefabs/Characters/Uniforms/Jacket_M88_klmk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{3DB68DA0E36CE548}Prefabs/Characters/Uniforms/Pants_M88_klmk.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{3FF2B686D1722D57}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_verona_spetsnaz_mg.et"
+    }
+    LoadoutSlotInfo HandWear {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652E9EFE3B39248F}" {
+     TargetStorage "Jacket/Jacket_M88_klmk.et"
+     PrefabsToSpawn {
+      "{E096C6BD45C87B63}Prefabs/Items/PersonalBelongings/PersonalBelongings_USSR.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{50A68300B537EDFA}Prefabs/Items/Food/ArmyCrackers_Soviet_01.et" "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652E9EFE3B392480}" {
+     TargetStorage "Vest/Vest_ALICE_verona_spetsnaz.et/MagPouch/Pouch_ALICE_30rnd_STANAG.et"
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652E9EFE3B39249E}" {
+     TargetStorage "Vest/Vest_ALICE_verona_spetsnaz_mg.et/MagPouch2/Holster_PM.et"
+     PrefabsToSpawn {
+      "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652E9EFE3B39249A}" {
+     TargetStorage "Vest/Vest_ALICE_verona_spetsnaz_mg.et/Suspenders/Vest_ALICE_suspenders_2.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652E9EFE941B8302}" {
+     TargetStorage "Back/Backpack_Kolobok.et"
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

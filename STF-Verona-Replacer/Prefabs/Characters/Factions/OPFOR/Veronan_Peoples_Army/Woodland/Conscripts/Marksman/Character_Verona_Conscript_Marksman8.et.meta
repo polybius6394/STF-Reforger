@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0E5CD97E9C4F923B}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Conscripts/Marksman/Character_Verona_Conscript_Marksman8.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

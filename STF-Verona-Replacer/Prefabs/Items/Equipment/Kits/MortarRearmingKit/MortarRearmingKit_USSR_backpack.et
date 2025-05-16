@@ -1,0 +1,22 @@
+GenericEntity : "{6DC231B93D42AF21}Prefabs/Items/Equipment/Kits/MortarRearmingKit/MortarRearmingKit_USSR.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  MeshObject "{61A2A755D00BCA83}" {
+   Object "{F63FB77CF5C853D7}Assets/Items/Equipment/Backpacks/Backpack_Kolobok/Backpack_Kolobok_item.xob"
+  }
+ }
+ {
+  $grp GenericEntity : "{01339E0887384921}Prefabs/Props/Agriculture/propBackpack.et" {
+   {
+    ID "65324AB041CA7B6A"
+    coords -0.608 0 -0.094
+    angleY -25.508
+   }
+   {
+    ID "65324AB074E063A8"
+    coords 0.686 0 0.032
+    angleY 86.748
+   }
+  }
+ }
+}

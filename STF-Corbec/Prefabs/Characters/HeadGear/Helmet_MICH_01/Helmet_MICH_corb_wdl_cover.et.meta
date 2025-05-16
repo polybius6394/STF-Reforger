@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{261CAFDBE2C58424}Prefabs/Characters/HeadGear/Helmet_MICH_01/Helmet_MICH_corb_wdl_cover.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

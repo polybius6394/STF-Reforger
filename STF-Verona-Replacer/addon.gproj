@@ -1,0 +1,22 @@
+GameProject {
+ ID "STFVeronaReplacer"
+ GUID "650E2D294ED46E77"
+ TITLE "STF - Verona Replacer"
+ Dependencies {
+  "62BABAA252BF2669" "58D0FB3206B6F859" "651A4D4C61B4ADBC"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

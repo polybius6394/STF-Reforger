@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4F93B663CAA36691}Prefabs/Groups/OPFOR/Veronan_Peoples_Army/Woodland/Regulars/Group_Verona_Regular_Manuever_Team.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

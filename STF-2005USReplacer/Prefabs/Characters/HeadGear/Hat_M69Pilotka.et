@@ -1,0 +1,36 @@
+GameEntity : "{6ED66E4BF74756C0}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D6029EB6A957}" {
+    ItemDisplayName UIInfo "{52C8D6029DC1C3CB}" {
+     Name "M69 Pilotka"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5966629ABBDBE041}" {
+      PreviewModel "{A20260B909D0FC10}Assets/ESU/M69_Sidecap/m69_pilotka.xob"
+     }
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{5D5ADC950016538C}Assets/esu_pilotka/m69_pilotka_item.xob"
+   Materials {
+    MaterialAssignClass "{62CF00995F73222D}" {
+     SourceMaterial "Material_#1159"
+     AssignedMaterial "{C10CE4D4C95081D0}Assets/esu_pilotka/Data/soviet_m69_pilotka_v2.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{437C55A2690E7443}Assets/esu_pilotka/m69_pilotka.xob"
+   WornMaterialsOverride {
+    "{C10CE4D4C95081D0}Assets/esu_pilotka/Data/soviet_m69_pilotka_v2.emat"
+   }
+   ItemModel "{5D5ADC950016538C}Assets/esu_pilotka/m69_pilotka_item.xob"
+   ItemMaterialsOverride {
+    "{C10CE4D4C95081D0}Assets/esu_pilotka/Data/soviet_m69_pilotka_v2.emat"
+   }
+  }
+ }
+}

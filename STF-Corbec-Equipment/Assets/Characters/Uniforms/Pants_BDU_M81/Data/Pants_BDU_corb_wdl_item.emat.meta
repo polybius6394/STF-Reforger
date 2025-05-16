@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D109F154E8249FF3}Assets/Characters/Uniforms/Pants_BDU_M81/Data/Pants_BDU_corb_wdl_item.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

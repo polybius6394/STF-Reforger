@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/Campaign_US_Player.et" {
+ ID "5242B7AE16596FB8"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{DA660EE7E43B8364}Prefabs/Characters/HeadGear/Helmet_HSAT_01/Helmet_HSAT_Cover_Net_Scrim_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{55058D1174E9B395}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_corb_wdl.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{54A49B42D138207E}" {
+    }
+    ItemsInitConfigurationItem "{5538C040738A83D1}" {
+    }
+   }
+  }
+ }
+}

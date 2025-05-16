@@ -1,0 +1,21 @@
+GenericEntity : "{9C00CF3A286C048F}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_20rnd_M14/Pouch_ALICE_20rnd_M14.et" {
+ ID "5256877A9314DF66"
+ components {
+  MeshObject "{521AC04910AB9941}" {
+   Materials {
+    MaterialAssignClass "{652E451262F77714}" {
+     SourceMaterial "Common/Materials/Game/fabric"
+     AssignedMaterial "{C27EC41E551BB05A}Assets/Items/Equipment/Accessories/Pouch_ALICE_20rnd_M14/Data/Common_Materials_Game_fabric_nomark.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{521AC04910AB9954}" {
+   WornMaterialsOverride {
+    "{C27EC41E551BB05A}Assets/Items/Equipment/Accessories/Pouch_ALICE_20rnd_M14/Data/Common_Materials_Game_fabric_nomark.emat"
+   }
+   ItemMaterialsOverride {
+    "{C27EC41E551BB05A}Assets/Items/Equipment/Accessories/Pouch_ALICE_20rnd_M14/Data/Common_Materials_Game_fabric_nomark.emat"
+   }
+  }
+ }
+}

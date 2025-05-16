@@ -1,0 +1,22 @@
+GenericEntity : "{809488C4984AC087}Prefabs/Weapons/Handguns/M9/Handgun_M9_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB0701437228}" {
+     Name "PC80A1"
+     Description "The standard issue Corbequais handgun."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5534C5023A57E47F}" {
+     SizeSetupStrategy Manual
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "PC80A1"
+    Description "The standard issue Corbequais handgun."
+   }
+  }
+ }
+}

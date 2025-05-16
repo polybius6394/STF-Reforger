@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{42279DEB8E725CD5}Prefabs/Weapons/Rifles/M16/Rifle_FC16A3_Painted_M203.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

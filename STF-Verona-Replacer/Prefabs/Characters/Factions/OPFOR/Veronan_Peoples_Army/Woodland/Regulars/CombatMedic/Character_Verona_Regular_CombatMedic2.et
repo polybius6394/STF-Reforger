@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{F68EDA72FA2ADE39}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Regulars/CombatMedic/Character_Verona_Regular_CombatMedic.et" {
+ ID "520EC961A090BE1E"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CE309CC4CD75A07A}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_cover_KZS_burlap2.et"
+    }
+   }
+  }
+ }
+}

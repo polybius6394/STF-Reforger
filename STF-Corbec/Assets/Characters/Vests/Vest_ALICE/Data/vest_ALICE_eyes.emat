@@ -1,0 +1,6 @@
+MatPBRBasic : "{6050030C5F99239F}Assets/Characters/Vests/Vest_ALICE/Data/vest_ALICE.emat" {
+ Emissive 0.23 0.441 0.061 0
+ EmissiveLV -4
+ EmissiveMap "{900C626F9AD468C0}Assets/Characters/Vests/Vest_ALICE/Data/vest_ALICE_eyes_EM.edds"
+ BCRMap "{D29942BF158676D5}Assets/Characters/Vests/Vest_ALICE/Data/Vest_ALICE_eyes_BCR.edds"
+}

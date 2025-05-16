@@ -1,0 +1,45 @@
+GameEntity : "{8A2B2A544F3ED831}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D601873E6784}" {
+    ItemDisplayName UIInfo "{52C8D60185955516}" {
+     Name "M87 Combat Helmet (Desert, Netting, SWDG)"
+     Description "The standard issue Corbequais combat helmet."
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{FAF1C9480CEC12E1}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_scrim_Item.xob"
+   Materials {
+    MaterialAssignClass "{62B036D93DDBCA51}" {
+     SourceMaterial "Helmet_PASGT_01_cover"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+    MaterialAssignClass "{62B036D93DDBCA20}" {
+     SourceMaterial "Helmet_PASGT_01_scrim"
+     AssignedMaterial "{5C33541C23D0AB17}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_scrim_netting.emat"
+    }
+    MaterialAssignClass "{62B036D93DDBCA3C}" {
+     SourceMaterial "Helmet_PASGT_01_scrim_netting"
+     AssignedMaterial "{FB22D96B06117DCD}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_cover_corb_des.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Goggles {
+     Prefab "{79D240C0D2390F4A}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_goggles.et"
+    }
+   }
+   WornModel "{E1BA3B1B50C83183}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_scrim.xob"
+   WornMaterialsOverride {
+    "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat" "{5C33541C23D0AB17}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_scrim_netting.emat" "{FB22D96B06117DCD}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_cover_corb_des.emat"
+   }
+   ItemModel "{FAF1C9480CEC12E1}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_scrim_Item.xob"
+   ItemMaterialsOverride {
+    "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat" "{5C33541C23D0AB17}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_scrim_netting.emat" "{FB22D96B06117DCD}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_cover_corb_des.emat"
+   }
+  }
+ }
+}

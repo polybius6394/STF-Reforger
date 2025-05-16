@@ -1,0 +1,8 @@
+SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ ID "56B2B4776E6E4499"
+ Factions {
+  SCR_Faction "{62940183C671036B}" : "{64868F21B8B934D3}Configs/Factions/1PH_Corbec.conf" {
+   m_bIsPlayable 0
+  }
+ }
+}

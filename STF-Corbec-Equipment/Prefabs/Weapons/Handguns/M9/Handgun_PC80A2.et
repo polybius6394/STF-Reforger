@@ -1,0 +1,33 @@
+GenericEntity : "{809488C4984AC087}Prefabs/Weapons/Handguns/M9/Handgun_M9_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB0701437228}" {
+     Name "PC80A2"
+     Description "A full-auto PC80A1, issued to Corbequais Para-Hussars."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5534C5023A57E47F}" {
+     SizeSetupStrategy Manual
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C45E7271D47}" {
+     FireModes {
+      BaseFireMode "{62AD4846621DB5E5}" {
+       MaxBurst -1
+       RoundsPerMinute 550
+       UIName "Auto"
+      }
+     }
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "PC80A2"
+    Description "A full-auto PC80A1, issued to Corbequais Para-Hussars."
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E4B7EB8FF8F8BE46}Configs/EntityCatalog/US/InventoryItems_EntityCatalog_1PH_Corbec.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

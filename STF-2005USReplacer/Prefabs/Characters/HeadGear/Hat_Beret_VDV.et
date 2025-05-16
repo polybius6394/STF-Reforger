@@ -1,0 +1,41 @@
+GameEntity : "{6ED66E4BF74756C0}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D6029EB6A957}" {
+    ItemDisplayName UIInfo "{52C8D6029DC1C3CB}" {
+     Name "VDV Beret"
+     Description "A sky blue Beret, Used by the Soviet Airborne forces."
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5966629ABBDBE041}" {
+      PreviewModel "{CA57CA4CA4D46642}Assets/ESU/Sov_Beret/VDV_Beret.xob"
+     }
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{5AFFC42850E001BF}Assets/esu_beret/VDV_Beret_item.xob"
+   Materials {
+    MaterialAssignClass "{62CF009B2B9B88CC}" {
+     SourceMaterial "Material_#325"
+     AssignedMaterial "{3BB6EEB813B8CB8A}Assets/esu_beret/Data/sov_enlistedvisor_insignia.emat"
+    }
+    MaterialAssignClass "{62CF009B2B9B88C0}" {
+     SourceMaterial "ranks"
+     AssignedMaterial "{5B6B84A189871E9E}Assets/esu_beret/Data/soviet_beret_vdv.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{D87DE81DBEC417C0}Assets/esu_beret/VDV_Beret.xob"
+   WornMaterialsOverride {
+    "{3BB6EEB813B8CB8A}Assets/esu_beret/Data/sov_enlistedvisor_insignia.emat" "{5B6B84A189871E9E}Assets/esu_beret/Data/soviet_beret_vdv.emat"
+   }
+   ItemModel "{5AFFC42850E001BF}Assets/esu_beret/VDV_Beret_item.xob"
+   ItemMaterialsOverride {
+    "{3BB6EEB813B8CB8A}Assets/esu_beret/Data/sov_enlistedvisor_insignia.emat" "{5B6B84A189871E9E}Assets/esu_beret/Data/soviet_beret_vdv.emat"
+   }
+  }
+ }
+}

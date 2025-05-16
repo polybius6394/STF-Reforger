@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{18D48DE2AE4C69B0}Configs/EntityCatalog/FactionLess/SupplyContainerItems_EntityCatalog_1PH_Corbec.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

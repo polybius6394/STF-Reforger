@@ -1,0 +1,81 @@
+SCR_ChimeraCharacter : "{6C5FF2067F4F4EF0}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Character_Verona_Base.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Autorifleman"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+    m_aAuthoredLabels + {
+     -1144487284 -1144487293
+    }
+    m_aAutoLabels {
+     122 43
+    }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{650F65EA38B27827}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{650F65EA38B27838}" {
+      m_sVariantPrefab "{2DE842A165391235}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Regulars/Autorifleman/Character_Verona_Regular_Autorifleman2.et"
+     }
+     SCR_EditableEntityVariant "{650F65EA38B2783A}" {
+      m_sVariantPrefab "{C8740E5869DC855E}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Regulars/Autorifleman/Character_Verona_Regular_Autorifleman3.et"
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{A7AF84C6C58BA3E8}Prefabs/Weapons/MachineGuns/RPK74/MG_RPK74.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A264A82471B12F54}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_cover_KZS_burlap1.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{F084515EC4F92330}Prefabs/Characters/Uniforms/Jacket_TAZ83/Jacket_TAZ83_strichtarn_01.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DB1D0F0C944C42A2}Prefabs/Characters/Uniforms/Pants_M88_strichtarn.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{91E52FC34F0FC91E}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_AR_strichtarn.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{650F65EA38B2781E}" {
+     TargetStorage "Jacket/Jacket_TAZ83_strichtarn_01.et"
+     PrefabsToSpawn {
+      "{E096C6BD45C87B63}Prefabs/Items/PersonalBelongings/PersonalBelongings_USSR.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{50A68300B537EDFA}Prefabs/Items/Food/ArmyCrackers_Soviet_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{650F65EA38B2781B}" {
+     TargetStorage "Vest/Vest_SovietHarness_AR_strichtarn.et/MagPouch_6Sh46/Pouch_Soviet_45rnd_RPK74_strichtarn.et"
+     PrefabsToSpawn {
+      "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{650F65EA38B27815}" {
+     TargetStorage "Vest/Vest_SovietHarness_AR_strichtarn.et/GrenadePouch/Pouch_Soviet_45rnd_RPK74_strichtarn.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{650F65EA38B27814}" {
+     TargetStorage "Vest/Vest_SovietHarness_rifleman_strichtarn.et/Suspenders/Vest_SovietHarness_Suspenders.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+     }
+    }
+   }
+  }
+ }
+}

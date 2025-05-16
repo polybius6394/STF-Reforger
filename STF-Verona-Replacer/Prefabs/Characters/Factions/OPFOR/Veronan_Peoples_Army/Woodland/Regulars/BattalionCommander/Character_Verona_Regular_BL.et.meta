@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E6D116607D5E0B72}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Regulars/BattalionCommander/Character_Verona_Regular_BL.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{01FFF35A438CFE48}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Regulars/Grenadier/Character_Verona_Regular_Grenadier.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

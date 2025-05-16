@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FFCF0EB8E374B9DA}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Airborne/MachineGunner/Character_Verona_Airborne_MachineGunner.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

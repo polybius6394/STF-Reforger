@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{C2D523E2FC9BEAC0}Assets/esu_telnyashka/Data/soviet_telnyashka_tanktop_BCR.edds"
+ NMOMap "{FA0D987025ECB85E}Assets/esu_telnyashka/Data/soviet_telnyashka_tanktop_NMO.edds"
+}

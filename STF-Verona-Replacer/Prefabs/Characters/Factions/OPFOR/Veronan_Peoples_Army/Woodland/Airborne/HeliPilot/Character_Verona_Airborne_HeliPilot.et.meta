@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C8BBA53E89671828}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Airborne/HeliPilot/Character_Verona_Airborne_HeliPilot.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

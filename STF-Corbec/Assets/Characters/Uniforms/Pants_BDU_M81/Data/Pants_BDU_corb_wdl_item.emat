@@ -1,0 +1,5 @@
+MatPBRBasic {
+ CavityFromAO 0.64
+ BCRMap "{92D64A3FCF37ECEC}Assets/Characters/Uniforms/Pants_BDU_M81/Data/Pants_BDU_corb_wdl_tucked_item_BCR.edds"
+ NMOMap "{8D5B3AC596481697}Assets/Characters/Uniforms/Pants_BDU_M81/Data/Pants_BDU_M81_item_NMO.edds"
+}

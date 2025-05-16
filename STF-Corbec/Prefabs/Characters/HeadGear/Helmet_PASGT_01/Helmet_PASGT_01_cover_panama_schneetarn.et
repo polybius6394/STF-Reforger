@@ -1,0 +1,40 @@
+GameEntity : "{8A2B2A544F3ED831}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D601873E6784}" {
+    ItemDisplayName UIInfo "{52C8D60185955516}" {
+     Name "M87 Combat Helmet (Schneetarn, Scrim)"
+     Description "The standard issue Corbequais combat helmet."
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{FAF1C9480CEC12E1}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_scrim_Item.xob"
+   Materials {
+    MaterialAssignClass "{62B036DB3860242C}" {
+     SourceMaterial "Helmet_PASGT_01_cover"
+     AssignedMaterial "{394F5E1168276560}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_scrim_snow.emat"
+    }
+    MaterialAssignClass "{62B036DB3860240C}" {
+     SourceMaterial "Helmet_PASGT_01_scrim"
+     AssignedMaterial "{5C33541C23D0AB17}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_scrim_netting.emat"
+    }
+    MaterialAssignClass "{62B036DB38602403}" {
+     SourceMaterial "Helmet_PASGT_01_scrim_netting"
+     AssignedMaterial "{1957CF4A4E0257FC}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_cover_schneetarn.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{E1BA3B1B50C83183}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_scrim.xob"
+   WornMaterialsOverride {
+    "{394F5E1168276560}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_scrim_snow.emat" "{5C33541C23D0AB17}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_scrim_netting.emat" "{1957CF4A4E0257FC}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_cover_schneetarn.emat"
+   }
+   ItemModel "{FAF1C9480CEC12E1}Assets/Characters/HeadGear/Helmet_PASGT/Helmet_PASGT_01_scrim_Item.xob"
+   ItemMaterialsOverride {
+    "{394F5E1168276560}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_scrim_snow.emat" "{5C33541C23D0AB17}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_scrim_netting.emat" "{1957CF4A4E0257FC}Assets/Characters/HeadGear/Helmet_PASGT/data/Helmet_PASGT_01_cover_schneetarn.emat"
+   }
+  }
+ }
+}

@@ -1,0 +1,35 @@
+GenericEntity : "{B31929F65F0D0279}Prefabs/Weapons/Rifles/M14/Rifle_M21.et" {
+ ID "5254ACCA959048B9"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "FC14MR"
+     Description "An FC14 for precision shooting by designated marksman, with an optic mount."
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5472D21A19B61CDF}" {
+     AttachmentObstructs 0
+    }
+    AttachmentSlotComponent "{62AD6524212EF810}" {
+     AttachmentSlot InventoryStorageSlot "{62AD6524225B5EA4}" {
+      PivotID "slot_barrel_muzzle"
+      Offset 0 -0.0294 -0.002
+      ChildPivotID "snap_weapon"
+      InspectionWidgetOffset 0 0.0486 0.536
+     }
+     AttachmentType AttachmentBayonetM9 "{62AD6524DFD96C7C}" {
+     }
+     ShowInInspection 1
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "FC14MR"
+    Description "An FC14 for precision shooting by designated marksman, with an optic mount."
+   }
+  }
+ }
+}

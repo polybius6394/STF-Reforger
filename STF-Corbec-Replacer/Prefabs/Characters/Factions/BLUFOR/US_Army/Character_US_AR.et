@@ -1,0 +1,41 @@
+SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_BaseLoadout.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{E6D4287208589401}Prefabs/Weapons/MachineGuns/L4LMG/MG_L4_LMG.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{DA660EE7E43B8364}Prefabs/Characters/HeadGear/Helmet_HSAT_01/Helmet_HSAT_Cover_Net_Scrim_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{55058D1174E9B395}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_corb_wdl.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{EC52017B865C2AD0}Prefabs/Characters/Vests/Vest_M69/Vest_M69_UK_OD.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{FBD54E50934E4304}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_AR_eyes.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{54A49B42D138207E}" {
+     PrefabsToSpawn {
+      "{D4353D5E87AC4FB0}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_4B1T.et" "{D4353D5E87AC4FB0}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_4B1T.et" "{D4353D5E87AC4FB0}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_4B1T.et" "{D4353D5E87AC4FB0}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_4B1T.et" "{D4353D5E87AC4FB0}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_4B1T.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5538C2905313AB98}" {
+     PrefabsToSpawn {
+      "{D4353D5E87AC4FB0}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_4B1T.et" "{D4353D5E87AC4FB0}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_4B1T.et" "{D4353D5E87AC4FB0}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_4B1T.et" "{D4353D5E87AC4FB0}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_4B1T.et" "{D4353D5E87AC4FB0}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_4B1T.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5538C2905CBA5359}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack_eyes.et"
+    }
+   }
+  }
+ }
+}

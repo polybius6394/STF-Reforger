@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{22C54A6175FCBD5B}Assets/ESU/Sov_Telnyashka/Data/soviet_telnyashka_tanktop.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

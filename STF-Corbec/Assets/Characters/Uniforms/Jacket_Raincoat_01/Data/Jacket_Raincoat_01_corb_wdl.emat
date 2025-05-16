@@ -1,0 +1,10 @@
+MatPBRMulti {
+ CavityFromAO 0.497
+ VFXMap "{0387DC450A92F7A4}Assets/Characters/Uniforms/Jacket_Raincoat_01/Data/Jacket_Raincoat_01_VFX.edds"
+ DirtUserOpacity 1
+ DirtOpacity 3
+ DirtRoughness 1
+ DirtBCRMap "{1C9A37AB5BCAD0F7}Assets/Characters/Uniforms/Jacket_Raincoat_01/Data/Jacket_Raincoat_01_corb_wdl_BCR.edds"
+ BCR_1 "{1C9A37AB5BCAD0F7}Assets/Characters/Uniforms/Jacket_Raincoat_01/Data/Jacket_Raincoat_01_corb_wdl_BCR.edds"
+ NMO_1 "{2A95780515090A51}Assets/Characters/Uniforms/Jacket_Raincoat_01/Data/Jacket_Raincoat_01_NMO.edds"
+}

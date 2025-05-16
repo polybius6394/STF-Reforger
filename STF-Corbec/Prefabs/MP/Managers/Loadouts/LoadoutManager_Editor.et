@@ -1,0 +1,19 @@
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ ID "56B2B47708C4F23A"
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{62AE066D1EF7E900}" {
+   m_sLoadoutName "Rifleman"
+   m_sLoadoutResource "{59221F02FB33DCB6}Prefabs/Characters/Factions/1PH_Corbec/Legionnaires/Character_Corbec_Legionnaire_Rifleman.et"
+   m_sAffiliatedFaction "1PH_Corbec"
+  }
+  SCR_PlayerArsenalLoadout "{62AE066D0AC87F09}" {
+   m_sLoadoutName "New Loadout"
+   m_sLoadoutResource "{59221F02FB33DCB6}Prefabs/Characters/Factions/1PH_Corbec/Legionnaires/Character_Corbec_Legionnaire_Rifleman.et"
+   m_sAffiliatedFaction "1PH_Corbec"
+  }
+  SCR_PlayerArsenalLoadout "{62AE066D3689B52E}" {
+   m_sLoadoutName "Saved Loadout"
+   m_sLoadoutResource "{236F5CD7D41EEC3F}Prefabs/Characters/Factions/1PH_Corbec/Character_Corbec_Base.et"
+  }
+ }
+}

@@ -1,0 +1,13 @@
+GenericEntity : "{B95BD66EA8F863C8}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_2.et" {
+ ID "51EE87F62C3DB7ED"
+ components {
+  BaseLoadoutClothComponent "{5174C3E615D4689F}" {
+   WornMaterialsOverride {
+    "{B60FA225CCBDF945}Assets/Characters/Vests/Vest_ALICE/Data/vest_ALICE_nomark.emat"
+   }
+   ItemMaterialsOverride {
+    "{B60FA225CCBDF945}Assets/Characters/Vests/Vest_ALICE/Data/vest_ALICE_nomark.emat"
+   }
+  }
+ }
+}

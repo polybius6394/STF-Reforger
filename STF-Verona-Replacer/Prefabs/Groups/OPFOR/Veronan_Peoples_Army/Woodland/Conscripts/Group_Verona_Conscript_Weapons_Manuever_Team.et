@@ -1,0 +1,23 @@
+SCR_AIGroup : "{524ED0151EE8167E}Prefabs/Groups/OPFOR/Veronan_Peoples_Army/Group_Verona_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Manuever Team (Weapons)"
+    m_Image "{73D2001F6BA8C1F1}Icons/verona_BCR.edds"
+    m_aAutoLabels {
+     -1144487293 -1144487283 -1144487275 -1144487268
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity OPFOR
+     m_Icons 8193
+     m_Amplifier TEAM
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{3B0492B7B4735FF2}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Conscripts/SquadLeader/Character_Verona_Conscript_SL.et" "{62A1ED6E9DAD133C}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Conscripts/MachineGunner/Character_Verona_Conscript_MachineGunner.et" "{10D26231AA809531}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Conscripts/AsstMachineGunner/Character_Verona_Conscript_AsstMachineGunner.et" "{5ADD814F55B8092A}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Conscripts/ATSpecialist/Character_Verona_Conscript_ATSpecialist.et" "{04B5A3EF448EE3CE}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Conscripts/AsstATSpecialist/Character_Verona_Conscript_AsstATSpecialist.et"
+ }
+}

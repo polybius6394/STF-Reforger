@@ -1,0 +1,28 @@
+GameEntity : "{0E924C84C063DB3C}Prefabs/Characters/Uniforms/Jacket_M88_corb_wdl.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{64648352F928D887}" {
+     SourceMaterial "Jacket_M88_01_Item"
+     AssignedMaterial "{2D0C31E6D0B52D48}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_corb_des_01_item.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "Corbequais Para-Hussar Blouse (Desert)"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{D88C6581341A9FA6}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_corb_des_01.emat"
+   }
+   ItemMaterialsOverride {
+    "{2D0C31E6D0B52D48}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_corb_des_01_item.emat"
+   }
+  }
+ }
+}

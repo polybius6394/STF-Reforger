@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{16FBA6CA6B2126EE}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_GL_eyes.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

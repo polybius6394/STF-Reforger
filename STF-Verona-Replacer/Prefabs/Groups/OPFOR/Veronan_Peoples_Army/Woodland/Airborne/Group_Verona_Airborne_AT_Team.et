@@ -1,0 +1,106 @@
+SCR_AIGroup : "{524ED0151EE8167E}Prefabs/Groups/OPFOR/Veronan_Peoples_Army/Group_Verona_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Anti-Tank Team"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels {
+     71
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{65310E5558991481}" {
+      m_BudgetType CAMPAIGN
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{65310E55591F4199}" {
+      m_BudgetType AI_SERVER
+      m_Value 0
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{65310E55581AE3B1}" {
+      m_BudgetType AI
+      m_Value 5
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{653315E44826FF87}" {
+     m_Identity OPFOR
+     m_Dimension LAND
+     m_Icons ANTITANK
+     m_Amplifier TEAM
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{65310E5559A7942B}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{65310E5559D6325A}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 259
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 -5 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{65310E555B5B12FE}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{65310E55553051B1}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{65310E5551BC4347}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{65310E554DFEC6DC}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{65310E554A4C580A}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -6 0 -6
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{CBAAE8FDD0C9CE57}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Airborne/FireteamLeader/Character_Verona_Airborne_FTL.et" "{8AF0B494356CA8F4}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Airborne/ATSpecialist/Character_Verona_Airborne_ATSpecialist.et" "{619AA507DCE5D9F8}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Airborne/AsstATSpecialist/Character_Verona_Airborne_AsstATSpecialist.et" "{8AF0B494356CA8F4}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Airborne/ATSpecialist/Character_Verona_Airborne_ATSpecialist.et" "{619AA507DCE5D9F8}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Airborne/AsstATSpecialist/Character_Verona_Airborne_AsstATSpecialist.et"
+ }
+}

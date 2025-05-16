@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{54A538A8541F3276}Patterns/schneetarn_2x_BCR.edds"
+ NMOMap "{13A9B48F708CA4E5}Assets/Characters/Uniforms/Pants_M70/Data/Pants_M70_01_Item_NMO.edds"
+}

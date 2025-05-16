@@ -1,0 +1,41 @@
+GameEntity : "{6ED66E4BF74756C0}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D6029EB6A957}" {
+    ItemDisplayName UIInfo "{52C8D6029DC1C3CB}" {
+     Name "VDV Guards Beret"
+     Description "a Sky blue Beret with a Guards patch sewn on the side."
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5966629ABBDBE041}" {
+      PreviewModel "{A553B8D439471683}Assets/ESU/Sov_Beret/VDV_Beret_Guards.xob"
+     }
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{5AFFC42850E001BF}Assets/esu_beret/VDV_Beret_item.xob"
+   Materials {
+    MaterialAssignClass "{62CF00989B34ADBF}" {
+     SourceMaterial "Material_#325"
+     AssignedMaterial "{3BB6EEB813B8CB8A}Assets/esu_beret/Data/sov_enlistedvisor_insignia.emat"
+    }
+    MaterialAssignClass "{62CF00989B34AD8E}" {
+     SourceMaterial "ranks"
+     AssignedMaterial "{5B6B84A189871E9E}Assets/esu_beret/Data/soviet_beret_vdv.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{AA573DCA8CF7F521}Assets/esu_beret/VDV_Beret_Guards.xob"
+   WornMaterialsOverride {
+    "{3BB6EEB813B8CB8A}Assets/esu_beret/Data/sov_enlistedvisor_insignia.emat" "{5B6B84A189871E9E}Assets/esu_beret/Data/soviet_beret_vdv.emat"
+   }
+   ItemModel "{5AFFC42850E001BF}Assets/esu_beret/VDV_Beret_item.xob"
+   ItemMaterialsOverride {
+    "{3BB6EEB813B8CB8A}Assets/esu_beret/Data/sov_enlistedvisor_insignia.emat" "{5B6B84A189871E9E}Assets/esu_beret/Data/soviet_beret_vdv.emat"
+   }
+  }
+ }
+}

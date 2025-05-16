@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B576C2D365A58E17}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Regulars/Marksman/Character_Verona_Regular_Marksman3.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

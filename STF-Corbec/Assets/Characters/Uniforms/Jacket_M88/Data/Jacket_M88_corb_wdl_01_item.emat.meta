@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{918CDD5C2C60B412}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_corb_wdl_01_item.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

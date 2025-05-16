@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{6A707467E92DCAB2}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Spetsnaz/RadioTelephoneOperator/Character_Verona_Spetsnaz_RadioTelephoneOperator.et" {
+ ID "520EC961A090BE1E"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{06FEF50E59A739D3}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_01_v2_klmk.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{C18F37AC08B92DCB}Prefabs/Characters/Uniforms/Jacket_M88_klmk_rolledup.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652E9EF4176E586B}" {
+     TargetStorage "Jacket/Jacket_M88_klmk_rolledup.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,24 @@
+GenericEntity : "{9CEA24A1A9CC2675}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_sniper.et" {
+ ID "526492DCB8322C65"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo MagPouch {
+     Prefab "{8DE5770595ECBA88}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_20rnd_M14/Pouch_ALICE_20rnd_M14_nomark.et"
+    }
+    LoadoutSlotInfo Etool {
+     Prefab "{B7D35352164012A3}Prefabs/Items/Equipment/Canteens/Canteen_US_01_nomark.et"
+    }
+    LoadoutSlotInfo Buttpack {
+     Prefab "{C0E929D180BACA95}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack_eyes.et"
+    }
+    LoadoutSlotInfo FirstAid {
+     Prefab "{38884AF25B093DA7}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_firstaid_nomark.et"
+    }
+    LoadoutSlotInfo Cateen {
+     Prefab "{B7D35352164012A3}Prefabs/Items/Equipment/Canteens/Canteen_US_01_nomark.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,5 @@
+MatPBRBasic {
+ CavityFromAO 0.506
+ BCRMap "{92A171B914E70782}Assets/Characters/Uniforms/Jacket_Raincoat_01/Data/Jacket_Raincoat_01_corb_des_item_BCR.edds"
+ NMOMap "{8E38A78002A01F91}Assets/Characters/Uniforms/Jacket_Raincoat_01/Data/Jacket_Raincoat_01_Item_NMO.edds"
+}

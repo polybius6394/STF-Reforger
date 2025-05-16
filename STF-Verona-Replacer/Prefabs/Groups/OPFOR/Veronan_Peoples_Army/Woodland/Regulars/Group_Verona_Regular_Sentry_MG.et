@@ -1,0 +1,23 @@
+SCR_AIGroup : "{524ED0151EE8167E}Prefabs/Groups/OPFOR/Veronan_Peoples_Army/Group_Verona_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Sentry (Machine Gun)"
+    m_Image "{73D2001F6BA8C1F1}Icons/verona_BCR.edds"
+    m_aAutoLabels {
+     -1144487293 -1144487284 -1144487276 -1144487268
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity OPFOR
+     m_Icons 8193
+     m_Amplifier TEAM
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{669F7D78D3CE584F}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Regulars/MachineGunner/Character_Verona_Regular_MachineGunner.et" "{0CA8C46E178E3067}Prefabs/Characters/Factions/OPFOR/Veronan_Peoples_Army/Woodland/Regulars/AsstMachineGunner/Character_Verona_Regular_AsstMachineGunner.et"
+ }
+}
